@@ -1,0 +1,21 @@
+#include <iostream>
+
+ using namespace std;
+
+    int caio = 1;
+
+  int main(){
+
+      while(caio <= 20000){
+          cout << caio << endl;
+          caio++;
+
+          if(caio != 15000){
+              cout << "essa nao e a senha correta";
+          }else{
+              cout << "essa e a senha correta" << caio;
+              break;
+          }
+      }
+
+  }
